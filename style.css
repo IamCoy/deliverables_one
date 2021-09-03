@@ -89,7 +89,8 @@ img {
     display: flex ;
     flex-direction: column;
     align-items: center;
-    text-align: center;margin: 5px 100px;
+    text-align: center;
+    margin: 5px 100px;
     border: 4px solid #7944e6;
 }
  button {
@@ -133,4 +134,40 @@ img {
 
 body {
     margin: 8px;
+}
+
+@media screen and (min-width: 768px) {
+   .sec {
+    flex-direction: row;
+   } 
+   
+   .row {
+       display:flex;
+       margin: 9px;
+
+   }
+   
+   
+   .flex-container1 {
+    margin: 5px 30px;
+    width: 51em;
+   }
+   .flex-container2 {
+    margin: 5px 30px;
+}.flex-container3 {
+    margin: 5px 30px;  
+}
+    #images {
+        padding: 0%;
+        width: 200em;
+        margin-left: 40px;
+        
+    }
+    #left {
+        width: 48%;
+    height: auto;
+    }
+    
+p {
+    word-spacing: 1em;
 }
